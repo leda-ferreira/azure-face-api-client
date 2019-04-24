@@ -1,0 +1,32 @@
+{
+    "name": "ledat/azure-face-api-client",
+    "description": "PHP client for Face module in Microsoft Cognitive Services",
+    "type": "library",
+    "require": {
+        "mashape/unirest-php": "3.*",
+        "php": ">=7.0.0"
+    },
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Leda Ferreira",
+            "email": "leda-ferreira@users.noreply.github.com"
+        }
+    ],
+    "keywords": [
+        "azure",
+        "cognitive services",
+        "facial recognition",
+        "face",
+        "vision"
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "files": [
+            "library/functions.php"
+        ],
+        "psr-4": {
+            "cognitive_services\\": "src"
+        }
+    }
+}
