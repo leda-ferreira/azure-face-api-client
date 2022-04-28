@@ -131,7 +131,7 @@ class Face extends ClientModel
 
         $similars = [];
         foreach ($result as $item) {
-            $similars = new SimilarResult($item);
+            $similars[] = new SimilarResult($item);
         }
         return $similars;
     }
